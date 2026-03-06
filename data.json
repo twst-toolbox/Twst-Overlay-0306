@@ -1,32 +1,25 @@
 {
-  "items": [
+  "tasks": [
     {
-      "text": "卡牌等级 (Card Lv)",
-      "x": 850,
-      "y": 200,
-      "color": "yellow",
-      "size": 15
+      "name": "卡牌等级",
+      "ocr_region": [800, 200, 1000, 250], 
+      "display_x": 800,
+      "display_y": 200,
+      "text_color": "yellow",
+      "keywords": {
+        "カードLv": "卡牌等级",
+        "Lv": "等级"
+      }
     },
     {
-      "text": "魔法等级 (Magic Lv)",
-      "x": 850,
-      "y": 350,
-      "color": "white",
-      "size": 15
-    },
-    {
-      "text": "极限突破 (Limit Break)",
-      "x": 850,
-      "y": 500,
-      "color": "white",
-      "size": 15
-    },
-    {
-      "text": "这里是属性面板",
-      "x": 1000,
-      "y": 50,
-      "color": "#00FF00",
-      "size": 20
+      "name": "魔法等级",
+      "ocr_region": [800, 350, 1000, 400],
+      "display_x": 800,
+      "display_y": 350,
+      "text_color": "#00FF00",
+      "keywords": {
+        "魔法Lv": "魔法等级"
+      }
     }
   ]
 }
