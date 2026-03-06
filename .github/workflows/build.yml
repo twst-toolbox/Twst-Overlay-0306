@@ -19,12 +19,14 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pyinstaller
+        # 这一行是新增的，安装 截图库(pillow) 和 Windows接口库(winsdk)
+        pip install pyinstaller pillow winsdk 
 
     - name: Build with PyInstaller
       run: |
-        # 这一步生成 exe
-        pyinstaller --onefile --noconsole --name TwstOverlay main.py
+        # 增加 --hidden-import 防止打包漏掉 winsdk 模块
+        pyinstaller --onefile --noconsole --hidden-import=winsdk --name TwstOverlay main.py
+        echo "Build finished."
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
