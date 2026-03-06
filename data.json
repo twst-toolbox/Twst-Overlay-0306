@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "text": "卡牌等级 (Card Lv)",
+      "x": 850,
+      "y": 200,
+      "color": "yellow",
+      "size": 15
+    },
+    {
+      "text": "魔法等级 (Magic Lv)",
+      "x": 850,
+      "y": 350,
+      "color": "white",
+      "size": 15
+    },
+    {
+      "text": "极限突破 (Limit Break)",
+      "x": 850,
+      "y": 500,
+      "color": "white",
+      "size": 15
+    },
+    {
+      "text": "这里是属性面板",
+      "x": 1000,
+      "y": 50,
+      "color": "#00FF00",
+      "size": 20
+    }
+  ]
+}
