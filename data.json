@@ -1,25 +1,11 @@
 {
-  "tasks": [
-    {
-      "name": "卡牌等级",
-      "ocr_region": [800, 200, 1000, 250], 
-      "display_x": 800,
-      "display_y": 200,
-      "text_color": "yellow",
-      "keywords": {
-        "カードLv": "卡牌等级",
-        "Lv": "等级"
-      }
-    },
-    {
-      "name": "魔法等级",
-      "ocr_region": [800, 350, 1000, 400],
-      "display_x": 800,
-      "display_y": 350,
-      "text_color": "#00FF00",
-      "keywords": {
-        "魔法Lv": "魔法等级"
-      }
-    }
-  ]
+  "debug_mode": true, 
+  "translations": {
+    "カードLv": "卡牌等级",
+    "魔法Lv": "魔法等级",
+    "限界突破": "极限突破",
+    "ステータス": "属性面板",
+    "エピソードLv": "剧情等级",
+    "強化": "强化"
+  }
 }
